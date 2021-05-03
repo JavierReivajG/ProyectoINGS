@@ -59,13 +59,42 @@ main section .icon-password {
     background-color: rgb(49, 49, 49);
     border-radius: 10px;
     margin: 5px;
-}
-
-main .login-container {
     padding:1%;
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 30%;
+    align-items: center;
+
+}
+
+.container-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-label label {
+    color: white;
+    margin-top: 3%;
+    font-size: 2rem;
+
+}
+
+
+.container-label input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+.container-label input:hover {  
+    border-bottom: 2px solid red;
 }
 
 
