@@ -56,12 +56,8 @@ main section .icon-password {
 }
 
 .login-container {
-<<<<<<< HEAD
-    background-color: rgb(116, 13, 90);
+    background-color: rgb(0, 0, 0);
     
-=======
-    background-color: rgb(49, 49, 49);
->>>>>>> b9c93585d26b2d0c93dc483639d47c5513c659b5
     border-radius: 10px;
     margin: 5px;
     padding:1%;
