@@ -17,6 +17,13 @@ body {
 	background-repeat: repeat-y;
 }
 
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 header .header-container{
     margin: 10px;
 }
@@ -49,24 +56,57 @@ main section .icon-password {
 }
 
 .login-container {
+<<<<<<< HEAD
     background-color: rgb(116, 13, 90);
     
+=======
+    background-color: rgb(49, 49, 49);
+>>>>>>> b9c93585d26b2d0c93dc483639d47c5513c659b5
     border-radius: 10px;
     margin: 5px;
-}
-
-main .login-container {
     padding:1%;
     display: flex;
     flex-direction: column;
     width: 30%;
+    align-items: center;
+
+}
+
+.container-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-label label {
+    color: white;
+    margin-top: 3%;
+    font-size: 2rem;
+
+}
+
+
+.container-label input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+.container-label input:hover {  
+    border-bottom: 2px solid red;
 }
 
 
 .texto-main p {
-    color:black;
-    font-size: 2rem;
-    font-weight: 500;
+    color:white;
+    font-size: 2.5rem;
+    font-weight: 800;
 }
 
 .texto-main {
@@ -75,7 +115,7 @@ main .login-container {
 .texto-main a  {
     color:black;
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 800;
     text-decoration: none;
     padding-left: 4px ;
 }
@@ -83,4 +123,8 @@ main .login-container {
     color:red;
 }
 
+
+.container-label label {
+    outline: none;
+}
 
