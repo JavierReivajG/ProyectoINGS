@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./css/registrar-cuenta.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrar</title>
+    <title>Modulo 1 (Registrar) </title>
 </head>
 <body>
     <main>
@@ -13,19 +13,22 @@
             <ul class="container-center">
                 <li class="volveralinicio"><a href="">Volver al inicio</a></li>
                 <li class="crear-cuenta">Crear cuenta</li>
-                <input placeholder="Nombre" autocomplete="name" type="text">
-                <input placeholder="Correo electronico" autocomplete="email" type="text">
-                <input placeholder="Contraseña" type="password">
-                <input placeholder="Confirmar Contraseña" type="password">
-                <input placeholder="Municipio" type="password">
-                <input placeholder="Edad" type="password">
-                <li class="text">Sexo</li>
-                <select class="checkbox" name="casilla-tipo" id="casilla-tipo">
-                    <option value="Basica">Masculino</option>
-                    <option value="Contigua">Femenino</option>
-                    <option value="Especial">No especificar</option>
-                    <option value="Extraordinaria">Elicoptero apache f732</option>
-                  </select>
+                <section class="slidery">
+                    <div class="container-slidery">
+                        <input placeholder="Apellido(s)" autocomplete="family-name" type="text">
+                        <input placeholder="Nombre(s)" autocomplete="name" type="text">
+                        <input placeholder="Correo electronico" autocomplete="email" type="email">
+                        <input placeholder="Contraseña" autocomplete="new-password" type="password">
+                        <input placeholder="Confirmar Contraseña" autocomplete="new-password" type="password">
+                        <input placeholder="Numero de telefono" autocomplete="" type="text">
+                        <li class="text">Direccion</li>
+                        <input placeholder="Calle" type="password">
+                        <input placeholder="Colonia" type="password">
+                        <input placeholder="Numero Exterior/interior" type="password">
+                        <input placeholder="Municipio" type="password">
+                        <input placeholder="Codigo postal" type="password">  
+                    </div>
+                </section>                
                 <ul class="container-center--footer">
                     <button>Hecho</button>
                 </ul>

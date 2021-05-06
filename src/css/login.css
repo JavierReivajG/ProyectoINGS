@@ -47,7 +47,7 @@ main .main-container {
  .crear-cuenta {
      color:  blue;
      list-style: none;
-     font-size: 4rem;
+     font-size: 5rem;
      font-weight: 400;
      margin-bottom: 3%;
 
@@ -55,14 +55,14 @@ main .main-container {
 
  .volveralinicio {
      list-style: none;
-     margin-left: 80%;
+     margin-left: 75%;
      margin-right: 2%;
  }
 
  .volveralinicio a {
      text-decoration: none;
      color: black;
-     font-size: 1.5rem;
+     font-size: 2rem;
      font-weight: 500;
  }
 
@@ -76,30 +76,23 @@ main .main-container {
     background: transparent;
     outline: none;  
     color: rgb(0, 0, 0);
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     margin-top: 2%;
     width: 35%;
     
  }
 
  .container-center--footer {
-     margin-top: 3%;
+     margin-top: 1%;
      margin-bottom: 3%;
  }
 
-.text {
-    font-size: 1.7rem;
-    color: black;
-    list-style: none;
-    margin-top: 1.4%;
-    margin-bottom: 1%;
-}
 
 .container-center--footer button {
     border: none;
     color: white;
     background-color:blue;
-    margin: 10px;
+    margin-bottom: 10px;
     padding: 6px 20px;
     border-radius: 3px;
     font-weight: 600;
@@ -113,9 +106,9 @@ main .main-container {
 .opcion-registrar li {
     color: black;
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     font-weight: 500;
-    margin-top: 3%;
+    margin-top: 6%;
     margin-right: 5px;
 }
 
